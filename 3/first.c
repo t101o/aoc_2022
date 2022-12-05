@@ -62,6 +62,7 @@ main(void)
       int64_t val = letter_priority(letter);
       sum += val;
     }
+  fclose(input);
   printf("%lld\n", sum);
   
   return 0;

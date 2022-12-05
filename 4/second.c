@@ -41,6 +41,7 @@ main(void)
 	     elves[1].upper_bound);
       count += overlaps(elves[0], elves[1]);
     }
+  fclose(input);
   printf("%lld\n", count);
   return 0;
 }

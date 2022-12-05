@@ -59,7 +59,7 @@ int main(void)
       c2 = c;
     }
   }
-
+  fclose(input);
   printf("%lld\n", score);
   return 0;
 }

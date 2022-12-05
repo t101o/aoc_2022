@@ -82,6 +82,7 @@ main(void)
       int64_t val = common_letter_priority(s1, s2, s3);
       sum += val;
     }
+  fclose(input);
   printf("%lld\n", sum);
   
   return 0;
